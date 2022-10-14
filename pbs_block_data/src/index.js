@@ -16,7 +16,6 @@ const headers = [
     'header_fee_recipient_balance_change_in_eth', 'validator_fee_recipient_balance_change_in_eth', 'gas_used', 'gas_limit',
     'base_fee_per_gas_in_eth', 'extra_data', 'block_origin', 'is_fb_builder', 'builder', 'proposer_total_reward_in_eth'
 ]
-console.log(headers.length)
 stream.write(headers)
 
 
